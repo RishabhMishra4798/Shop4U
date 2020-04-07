@@ -38,7 +38,7 @@
 							<div class="form-input">
 								<form autocomplete='off' method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>">
 									<div class="form-group">
-										<input type="name" name='username' class="form-control" placeholder="Enter Name" pattern="[a-zA-Z0-9]+" required>
+										<input type="name" name='username' class="form-control" placeholder="Enter Name" pattern="[a-zA-Z ]+" required>
 									</div>
 									<div class="form-group">
 										<input name='email' type="email" class="form-control" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
